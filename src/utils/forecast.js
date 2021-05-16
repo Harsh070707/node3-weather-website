@@ -15,7 +15,7 @@ const forecast=(latitude,longitude,callback)=>{
 	 
 	 	 //const currtemp = response.body.current.temperature
   //const feelike =response.body.current.feelslike
-	response.body.current.weather_descriptions[0]+ ', it is currently '+ response.body.current.temperature +' out. It feels like '+ response.body.current.feelslike + ' degrees out'
+	response.body.current.weather_descriptions[0]+ ', it is currently '+ response.body.current.temperature +' out. It feels like '+ response.body.current.feelslike + ' degrees out'+ body.current.humidity + "%."
 	)
  
 	}
